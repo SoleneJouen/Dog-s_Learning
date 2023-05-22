@@ -3,6 +3,7 @@
   padding: 0;
   list-style-type: none;
   box-sizing: border-box;
+  font-family: 'Source Serif Pro', serif;
 }
 
 body {
@@ -22,7 +23,7 @@ nav {
 
 .menu > li {
   float: left;
-  color: #e298e1;
+  color: #bab88c;
   width: 200px;
   height: 40px;
   line-height: 40px;
@@ -49,6 +50,7 @@ nav {
 
 .sub-menu li a {
   color: white;
+  text-decoration: none;
 }
 
 .sub-menu li:last-child {
@@ -70,6 +72,7 @@ nav {
 .logo{
   width: 12%;
   margin: auto;
+  padding-top: 2%;
   display: flex;
 }
 
@@ -77,34 +80,22 @@ h1 {
   text-align: center;
 }
 
-figure {
-  display: inline-block;
-  text-align: center;
-  font-family: 'Crimson Text', serif;
-  font-family: 'Roboto Slab', serif;
-  margin: 1%;
-  border: 1px solid #000000;
+.dogs {
+  width: 30%;
+  height: auto;
+  display: flex;
+  margin: auto;
   border-radius: 10px;
-  padding: 10px;
-  background-color: #bab88c;
 }
 
-.thetis {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-}
-
-.nyx {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-}
-
-footer {
-  float: right;
+main ul {
+  text-align: center;
 }
 
 .communication {
   width: 40px;
+}
+
+footer {
+  float: right;
 }

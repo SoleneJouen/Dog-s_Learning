@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="icon" href="../../images/logo/logo2.png">
+    <link rel="icon" href="../../../images/logo/logo1.png">
     <title>Puppy's School</title>
     <link rel="stylesheet" href="../../css/education/puppyschool.css">
   </head>
@@ -52,7 +55,7 @@
       <h1>Puppy's School</h1>
     </header>
     <main>
-      <p class="border border-3 border-dark rounded-3 fs-5 text-center fw-bold m-5">
+      <p class="text-center border border-3 border-dark rounded-3 fs-5 fw-bold m-5">
         La Puppy's School a pour but d'éveiller le chiot, de lui ouvrir l'esprit, de lui apprendre à supporter les stress
         qu'il subira dans sa vie, de répondre correctement à quelques ordres simples tout en s'amusant avec son maître.
       </p>
@@ -96,18 +99,44 @@
       <p>
         Votre école pour chiot vous fera ses suggestions et vous fera part de ses conseils.
       </p>
-      <img class="puppy21" src="../../../images/education/puppy's_school/1.jpg" alt="Puppy 1">
-      <img class="puppy21" src="../../../images/education/puppy's_school/9.jpg" alt="Puppy 9">
-      <img class="puppy21" src="../../../images/education/puppy's_school/12.jpg" alt="Puppy 12">
-      <img class="puppy21" src="../../../images/education/puppy's_school/16.jpg" alt="Puppy 16">
-      <img class="puppy21" src="../../../images/education/puppy's_school/20.jpg" alt="Puppy 20">
-      <img class="puppy21" src="../../../images/education/puppy's_school/21.jpg" alt="Puppy 21">
-      <img class="puppy21" src="../../../images/education/puppy's_school/22.jpg" alt="Puppy 22">
-      <img class="puppy21" src="../../../images/education/puppy's_school/23.jpg" alt="Puppy 23">
-      <img class="puppy21" src="../../../images/education/puppy's_school/28.jpg" alt="Puppy 28">
-      <img class="puppy21" src="../../../images/education/puppy's_school/29.jpg" alt="Puppy 29">
-      <img class="puppy21" src="../../../images/education/puppy's_school/30.jpg" alt="Puppy 30">
-
+      <div class="container">
+        <!--Carrousel-->
+        <div id="carrousel1" class="carousel slide" data-bs-ride="carousel">
+          <!--Bouton indicateur-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrousel1" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carrousel1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carrousel1" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carrousel1" data-bs-slide-to="3"></button>
+          </div>
+          <!--Conteneur des images-->
+          <div class="carousel-inner">
+            <!--Image 1-->
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img class="puppy_carrousel" src="../../../images/education/puppy's_school/8.jpg" alt="Puppy 1">
+            </div>
+            <!--Image 2-->
+            <div class="carousel-item" data-bs-interval="3000">
+              <img class="puppy_carrousel" src="../../../images/education/puppy's_school/9.jpg" alt="Puppy 9">
+            </div>
+            <!--Image 3-->
+            <div class="carousel-item" data-bs-interval="3000">
+              <img class="puppy_carrousel" src="../../../images/education/puppy's_school/21.jpg" alt="Puppy 21">
+            </div>
+            <!--Image 4-->
+            <div class="carousel-item" data-bs-interval="3000">
+              <img class="puppy_carrousel" src="../../../images/education/puppy's_school/16.jpg" alt="Puppy 16">
+            </div>
+          </div>
+          <!--Bouton suivant precedent-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
     </main>
     <footer>
       <p>
