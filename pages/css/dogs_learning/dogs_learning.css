@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Source Serif Pro', serif;
+}
+
+body {
+  background: url("../../../images/fond.png") center;
+  background-size: cover;
+  min-height: 600px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: large;
+}
+
+nav {
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu > li {
+  float: left;
+  color: #bab88c;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.menu li a {
+  color: #bab88c;
+  text-decoration: none;
+}
+
+.sub-menu {
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+}
+
+.sub-menu li {
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+}
+
+.sub-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sub-menu li:last-child {
+  border-bottom: 0;
+}
+
+.sub-menu li:hover {
+  background: black;
+}
+
+.menu > li:hover .sub-menu li {
+  transform: scale(1);
+}
+
+.menu > li:hover .sub-menu {
+  transform: scale(1);
+}
+
+.logo{
+  width: 12%;
+  margin: auto;
+  padding-top: 2%;
+  display: flex;
+}
+
+.nuage {
+  display: flex;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.centre {
+  width: 55%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-left: 75%;
+  text-decoration: underline;
+}
+
+ul {
+  text-align: center;
+}
+
+iframe {
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+}
+
+.phone {
+  margin-left: 73%;
+}
+
+.mail {
+  margin-left: 70%;
+  margin-bottom: 12%;
+}
+
+.communication {
+  width: 40px;
+}
+
+footer {
+  float: right;
+}
