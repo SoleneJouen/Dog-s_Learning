@@ -14,6 +14,10 @@ body {
   text-align: justify;
 }
 
+main {
+  margin: 1%;
+}
+
 nav {
   text-align: center;
 }

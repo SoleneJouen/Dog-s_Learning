@@ -13,6 +13,10 @@ body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
+main {
+  margin: 1%;
+}
+
 nav {
   text-align: center;
 }
